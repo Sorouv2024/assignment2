@@ -1,0 +1,73 @@
+
+/* Deals section */
+.deals {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.deals h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.deals p{
+  color: gray;
+}
+
+.deals .orange {
+  color: #f26422;
+}
+
+/* .deals .deal-text {
+  max-width: 600px;
+  margin: 0 auto 30px;
+} */
+
+.deal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card1{
+ background: url('../assets/deal-ana.png');
+
+}
+.card2{
+  background: url('../assets/deal-bloom.png');
+}
+
+.card {
+   
+  position: relative;
+
+  min-width: 250px;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card .large {
+  background: url('../assets/deal-zabo.png');
+  flex: 2;
+  max-width: 600px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.card .text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+}
